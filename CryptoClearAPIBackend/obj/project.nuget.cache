@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "mqry9nDC9nyAOj6wdM6YhegeY1o7XhWkZkX7GCsbPaQQ8ABTIkUpCmTmt8PwcahC/I7oyhUqkfyzs4X32UObOA==",
+  "success": true,
+  "projectFilePath": "C:\\Code\\FinalProject\\CryptoClearAPIBackend\\CryptoClearAPIBackend\\CryptoClearAPIBackend.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\garre\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\garre\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\garre\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\garre\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\garre\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\garre\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
