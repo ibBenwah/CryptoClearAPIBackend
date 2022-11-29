@@ -16,13 +16,14 @@ namespace CryptoClearAPIBackend.Controllers
             _context = context;
         }
 
-        [HttpGet("transactions")]
-        public async Task<ActionResult<IEnumerable<Transaction>>> GetEvents()
-        {
-            return await _context.Transaction.ToListAsync();
-        }
+        //[HttpGet("transactions")]
+        //public async Task<ActionResult<IEnumerable<Transaction>>> GetEvents()
+        //{
+        //    return await _context.Transaction.ToListAsync();
+        //}
 
-
+        //[HttpPost("AddTransaction")]
+        //public async Task<>
 
 
     }

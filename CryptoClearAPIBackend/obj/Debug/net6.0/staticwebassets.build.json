@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "xqH72sV6bP210chgX/TqwPke1VXnQVYFF24A8gutvsI=",
+  "Source": "CryptoClearAPIBackend",
+  "BasePath": "_content/CryptoClearAPIBackend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
