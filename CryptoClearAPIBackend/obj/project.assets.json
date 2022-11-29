@@ -3926,26 +3926,35 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\garre\\.nuget\\packages\\": {}
+    "C:\\Users\\School\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Code\\FinalProject\\CryptoClearAPIBackend\\CryptoClearAPIBackend\\CryptoClearAPIBackend.csproj",
+      "projectUniqueName": "C:\\Users\\School\\Desktop\\GC Final\\CryptoClearBackEnd\\CryptoClearAPIBackend\\CryptoClearAPIBackend.csproj",
       "projectName": "CryptoClearAPIBackend",
-      "projectPath": "C:\\Code\\FinalProject\\CryptoClearAPIBackend\\CryptoClearAPIBackend\\CryptoClearAPIBackend.csproj",
-      "packagesPath": "C:\\Users\\garre\\.nuget\\packages\\",
-      "outputPath": "C:\\Code\\FinalProject\\CryptoClearAPIBackend\\CryptoClearAPIBackend\\obj\\",
+      "projectPath": "C:\\Users\\School\\Desktop\\GC Final\\CryptoClearBackEnd\\CryptoClearAPIBackend\\CryptoClearAPIBackend.csproj",
+      "packagesPath": "C:\\Users\\School\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\School\\Desktop\\GC Final\\CryptoClearBackEnd\\CryptoClearAPIBackend\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\garre\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\School\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -3998,7 +4007,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
