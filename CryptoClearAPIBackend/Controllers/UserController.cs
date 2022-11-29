@@ -5,8 +5,11 @@ namespace CryptoClearAPIBackend.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class EventController : ControllerBase
+    public class UserController : ControllerBase
     {
-        private readonly 
+
+        //  Get all transaction by user id (return List[] transactions
+        // ADD transaction
+        // Update transaction 
     }
 }
