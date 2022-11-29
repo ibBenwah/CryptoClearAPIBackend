@@ -19,8 +19,9 @@ namespace CryptoClearAPIBackend.Controllers
         [HttpGet("transactions")]
         public async Task<ActionResult<IEnumerable<Transaction>>> GetEvents()
         {
-            return await _context.Portfolio.ToListAsync();
+            return await _context.Transaction.ToListAsync();
         }
+
 
 
 

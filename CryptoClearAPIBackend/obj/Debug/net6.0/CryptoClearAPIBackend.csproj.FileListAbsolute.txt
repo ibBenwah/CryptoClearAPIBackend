@@ -1,0 +1,7 @@
+C:\Code\FinalProject\CryptoClearAPIBackend\CryptoClearAPIBackend\obj\Debug\net6.0\CryptoClearAPIBackend.csproj.AssemblyReference.cache
+C:\Code\FinalProject\CryptoClearAPIBackend\CryptoClearAPIBackend\obj\Debug\net6.0\CryptoClearAPIBackend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Code\FinalProject\CryptoClearAPIBackend\CryptoClearAPIBackend\obj\Debug\net6.0\CryptoClearAPIBackend.AssemblyInfoInputs.cache
+C:\Code\FinalProject\CryptoClearAPIBackend\CryptoClearAPIBackend\obj\Debug\net6.0\CryptoClearAPIBackend.AssemblyInfo.cs
+C:\Code\FinalProject\CryptoClearAPIBackend\CryptoClearAPIBackend\obj\Debug\net6.0\CryptoClearAPIBackend.csproj.CoreCompileInputs.cache
+C:\Code\FinalProject\CryptoClearAPIBackend\CryptoClearAPIBackend\obj\Debug\net6.0\CryptoClearAPIBackend.MvcApplicationPartsAssemblyInfo.cs
+C:\Code\FinalProject\CryptoClearAPIBackend\CryptoClearAPIBackend\obj\Debug\net6.0\CryptoClearAPIBackend.MvcApplicationPartsAssemblyInfo.cache
