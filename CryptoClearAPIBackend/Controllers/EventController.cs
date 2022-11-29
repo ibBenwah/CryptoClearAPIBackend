@@ -7,5 +7,6 @@ namespace CryptoClearAPIBackend.Controllers
     [ApiController]
     public class EventController : ControllerBase
     {
+        private readonly 
     }
 }
