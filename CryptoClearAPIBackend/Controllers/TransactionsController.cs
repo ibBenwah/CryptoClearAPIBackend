@@ -33,14 +33,14 @@ namespace CryptoClearAPIBackend.Controllers
 
         // GET: api/Transactions/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Transaction>> GetTransaction(int id)
+        public List<Transaction> GetTransaction(int id)
         {
-            var transaction = await _context.Transactions.FindAsync(id);
+            var transaction = _context.Transactions.Where(x => x.UserId == id).ToList();
 
-            if (transaction == null)
-            {
-                return NotFound();
-            }
+            //if (transaction == null)
+            //{
+            //    return NotFound();
+            //}
 
             return transaction;
         }
