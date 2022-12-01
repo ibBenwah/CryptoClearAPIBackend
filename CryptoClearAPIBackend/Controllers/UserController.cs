@@ -7,9 +7,7 @@ namespace CryptoClearAPIBackend.Controllers
     [ApiController]
     public class UserController : ControllerBase
     {
-
-        //  Get all transaction by user id (return List[] transactions
-        // ADD transaction
-        // Update transaction 
+    
+       
     }
 }
