@@ -32,10 +32,10 @@ namespace CryptoClearAPIBackend.Controllers
         }
 
         // GET: api/Transactions/5
-        [HttpGet("{id}")]
-        public List<Transaction> GetTransaction(int id)
+        [HttpGet("{userId}")]
+        public List<Transaction> GetTransaction(int userId)
         {
-            var transaction = _context.Transactions.Where(x => x.UserId == id).ToList();
+            var transaction = _context.Transactions.Where(x => x.UserId == userId).ToList();
 
             //if (transaction == null)
             //{
