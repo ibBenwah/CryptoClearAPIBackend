@@ -86,7 +86,7 @@ namespace CryptoClearAPIBackend.Controllers
             _context.Transactions.Add(transaction);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetTransaction", new { id = transaction.Id }, transaction);
+            return CreatedAtAction(nameof(PostTransaction), new { id = transaction.Id }, transaction);
         }
 
         // DELETE: api/Transactions/5
