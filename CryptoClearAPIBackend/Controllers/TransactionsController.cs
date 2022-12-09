@@ -33,7 +33,7 @@ namespace CryptoClearAPIBackend.Controllers
 
         // GET: api/Transactions/5
         [HttpGet("{userId}")]
-        public List<Transaction> GetTransaction(int userId)
+        public List<Transaction> GetTransaction(string userId)
         {
             var transaction = _context.Transactions.Where(x => x.UserId == userId).ToList();
 
@@ -48,7 +48,7 @@ namespace CryptoClearAPIBackend.Controllers
         // PUT: api/Transactions/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutTransaction(int id, Transaction transaction)
+        public async Task<IActionResult> PutTransaction(int id, [FromBody]Transaction transaction)
         {
             if (id != transaction.Id)
             {
@@ -81,7 +81,7 @@ namespace CryptoClearAPIBackend.Controllers
         // POST: api/Transactions
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<Transaction>> PostTransaction(Transaction transaction)
+        public async Task<ActionResult<Transaction>> PostTransaction([FromBody]Transaction transaction)
         {
             _context.Transactions.Add(transaction);
             await _context.SaveChangesAsync();

@@ -9,7 +9,7 @@ namespace CryptoClearAPIBackend.DbModels
         public int Id { get; set; }
 
         [ForeignKey(nameof(User))]        
-        public int UserId { get; set; }
+        public string UserId { get; set; }
         public DateTime TransactionDate { get; set; }
         public string CoinId { get; set; }
         public decimal Quantity { get; set; }
