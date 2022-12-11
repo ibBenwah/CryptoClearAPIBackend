@@ -75,12 +75,12 @@ namespace CryptoClearAPIBackend.Controllers
         // POST: api/Users
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<User>> PostUser(User user)
+        public async Task<ActionResult<User>> PostUser([FromBody]User user)
         {
             _context.Users.Add(user);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetUser", new { id = user.Id }, user);
+            return CreatedAtAction(nameof(PostUser), new { id = user.Id }, user);
         }
 
         // DELETE: api/Users/5
@@ -99,7 +99,8 @@ namespace CryptoClearAPIBackend.Controllers
             return NoContent();
         }
 
-        private bool UserExists(string id)
+        [HttpGet("userCheck")]
+        public bool UserExists(string id)
         {
             return _context.Users.Any(e => e.Id == id);
         }
